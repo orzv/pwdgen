@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>密码生成器</title>
+	<meta name="description" content="前端快速生成随机密码，安全实用">
+	<meta name="keywords" content="密码,随机,生成,复杂密码,安全">
+</head>
+
+<body>
+	<div class="pwd">
+		<script src="pwd.js"></script>
+	</div>
+	<div class="desc">自定义长度：在地址栏后面加上长度，默认16位</div>
+	<div class="desc">如：<a href="10">https://pwd.u1qo.com/10</a></div>
+	<div class="links">
+		<a href="8">8位</a>
+		<a href="12">12位</a>
+		<a href="16">16位</a>
+	</div>
+</body>
+
+<style>
+	body {
+		display: flex;
+		flex-direction: column;
+	}
+
+	a {
+		color: #1b61c9;
+		text-decoration: none;
+		margin: 0 12px;
+	}
+
+	.pwd {
+		color: #333333;
+		font-size: 22px;
+		padding: 12px;
+		margin: 6px auto;
+		background: #daf8ff;
+		text-align: center;
+		border-radius: 5px;
+		font-family: monospace;
+	}
+
+	.desc {
+		text-align: center;
+		margin-top: 12px;
+	}
+
+	.links {
+		display: flex;
+		justify-content: center;
+		margin-top: 24px;
+	}
+</style>
+
+</html>
